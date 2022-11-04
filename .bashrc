@@ -126,4 +126,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-#export TERM=alacritty
+export TERM=alacritty
+
+export CLICOLOR=1
+export LSCOLORS=gxFxCxDxCxegedabagacad
+#export PS1='[\033[0;37m\u\033[0;32m@\033[0mNesto:\w]\$ '
